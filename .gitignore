@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+backend/venv/
+backend/.venv/
+
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Resume uploads
+backend/uploads/
+uploads/
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded/generated files
+backend/uploads/*
+!backend/uploads/.gitkeep
